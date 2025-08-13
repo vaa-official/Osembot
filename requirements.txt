@@ -6,3 +6,4 @@ scikit-learn
 zappa
 nltk
 flask_cors
+googletrans==4.0.0-rc1
