@@ -8,3 +8,4 @@ nltk
 flask_cors
 httpx>=0.27.0
 googletrans-temp==4.1.0
+runtime.txt
