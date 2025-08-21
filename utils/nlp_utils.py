@@ -8,8 +8,11 @@ from config import Config
 from googletrans import Translator
 
 # Initialize NLTK
-nltk.data.path.append(Config.NLTK_DATA_PATH)
-stop_words = set(stopwords.words('english'))
+try:
+    stop_words = set(stopwords.words('english'))
+except LookupError:
+    nltk.download('stopwords')
+    stop_words = set(stopwords.words('english'))
 
 # Initialize translator
 translator = Translator()
