@@ -1,0 +1,9 @@
+Flask==2.3.2
+Flask-Session
+gunicorn==21.2.0
+requests
+scikit-learn
+zappa
+nltk
+flask_cors
+googletrans-temp==4.1.0
